@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="style.css"/>
+</head>
+
+<title>Hello World!</title>
+</head>
+<body>
+    <h1>
+        Useful Links for Learning Basic Web Stuff
+    </h1>
+    <h2 class="subtitle" id="unique">
+        Here is a stubtitle
+    </h2>
+
+    <h2 class="subtitle">
+        A different subtitle
+    </h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"> Parts of an HTML element</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors">CSS Selectors Reference </a> </li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">Linking to CSS</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial">Canvas Tutorial</a></li>
+<li><a href="https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41"> "58 Bytes" </a></li>
+</ul>
+<p>
+    Euler's formula is \(e^{\pi i} = -1\)
+    \[\zeta(s) =\sum_{n\in\mathbb{N}}\frac{1}{n^s}\]
+</p>
+
+<ul>
+    <li id="L1"> 1 </li>
+    <li id="L2"> 2 </li>
+    <li id="L3"> 3 </li>
+</ul>
+<script>
+//let subtitles = document.querySelectorAll(".subtitle")
+const li_1 = document.querySelector("#L1")
+li_1.textContent = "<b> First </b>"
+console.log("hello")
+</script>
+<pre>
+    <b> First </b>
+</pre>
+
+</body>
+</html>

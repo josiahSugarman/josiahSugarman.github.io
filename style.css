@@ -1,0 +1,27 @@
+body {
+    /*max-width: 38rem;*/
+    padding: 1rem;
+    margin: 1rem auto;
+    /*border: 1px dashed;*/
+  }
+/*
+
+h1 {
+    color:pink;
+}
+body {
+    color:pink;
+    background-color:black;
+}
+li {
+    color:white
+}
+
+h2.subtitle#unique {
+    color:#883340
+}
+*/
+
+h2.subtitle {
+    font-size: 1rem;
+}
